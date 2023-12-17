@@ -9,6 +9,6 @@ let passportMarried = {
 
 let clonePassportMarried = structuredClone(passportMarried)
 
-clonePassportMarried.married = "true";
+clonePassportMarried.married = true;
 console.log(passportMarried);
 console.log(clonePassportMarried)
