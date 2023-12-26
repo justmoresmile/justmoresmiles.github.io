@@ -61,4 +61,14 @@ const users = [
     }
 ];
 
-users.filter( )
+users.filter(function(userId) {
+    if(userId.id % 2 === 0){
+        console.log(userId);
+    }
+
+    
+   
+   
+  
+  
+})
