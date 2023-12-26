@@ -61,9 +61,8 @@ const users = [
     }
 ];
 
-users.filter(function(item) { 
-    let itemsId = item.id % 2 === 0
-    console.log(itemsId);
+let usersId = users.filter(function(item) { 
+    return item.id % 2 === 0    
 })
 
-
+console.log(usersId)
