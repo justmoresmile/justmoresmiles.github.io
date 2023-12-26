@@ -61,14 +61,9 @@ const users = [
     }
 ];
 
-users.filter(function(userId) {
-    if(userId.id % 2 === 0){
-        console.log(userId);
-    }
-
-    
-   
-   
-  
-  
+users.filter(function(item) { 
+    let itemsId = item.id % 2 === 0
+    console.log(itemsId);
 })
+
+
